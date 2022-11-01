@@ -1,0 +1,41 @@
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: relative;
+    text-align: left;
+    padding: 2em;
+
+    h2 {
+        font-size: 4em;
+        color: white;
+        text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+        line-height: 1.5em;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 2em;
+        color: white;
+        text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+
+}
