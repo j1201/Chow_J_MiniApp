@@ -22,19 +22,21 @@ video {
     padding: 2em;
 
     h2 {
+        font-family: $playful;
         font-size: 4em;
         color: white;
         text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
         line-height: 1.5em;
         text-transform: uppercase;
+        font-weight: 600;
     }
 
     p {
-        font-size: 2em;
+        font-size: 1.9em;
         color: white;
         text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 400;
     }
 
 
