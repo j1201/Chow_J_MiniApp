@@ -16,8 +16,6 @@ export default {
     methods: {
         loadLBData() {
             this.$emit('loadlbdata', this.car);
-
-            this.$refs.downarrow.classList.add('uparrow');
         }
     }
 }
