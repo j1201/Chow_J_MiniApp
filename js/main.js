@@ -34,7 +34,11 @@ import LightBox from './components/TheLightbox.js';
                 this.lbData = car;
 
                 //show the lightbox
-                this.showLB = true;
+                if (this.showLB == true) {
+                    this.showLB = false;
+                } else {
+                    this.showLB = true;
+                };
             }
         }
     }).mount('#app')
