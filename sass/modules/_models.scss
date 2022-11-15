@@ -25,6 +25,7 @@
     p {
         font-size: 1.2em;
         font-weight: 600;
+        line-height: 1.8em;
     }
 }
 
@@ -82,4 +83,14 @@
     img {
         width: max-content;
     }
+}
+
+.models-container {
+    display: flex;
+    gap: 2.5em;
+}
+
+.uparrow {
+    transform: rotate(-180deg);
+    transition: .5s;
 }

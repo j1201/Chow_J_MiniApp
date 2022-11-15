@@ -1,0 +1,26 @@
+{
+    "Cooper": {
+        "name": "Cooper",
+        "price": "$41,356",
+        "lease": "$593",
+        "finance": "$767",
+        "features": ["6-Speed Manual Transmission","205 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
+        "pic": "cooper.png"
+    },
+    "CooperS": {
+        "name": "Cooper S",
+        "price": "$46,756",
+        "lease": "$676",
+        "finance": "$869",
+        "features": ["6-Speed Manual Transmission","230 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
+        "pic": "coopers.png"
+    },
+    "JohnCooperWorks": {
+        "name": "John Cooper Works",
+        "price": "$57,856",
+        "lease": "$834",
+        "finance": "$1,078",
+        "features": ["8 Speed Sport Steptronic Automatique","240 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
+        "pic": "cooperjohn.png"
+    }
+  }
