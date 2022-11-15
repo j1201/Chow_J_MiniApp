@@ -41,40 +41,19 @@
         </section>
 
         <!-- Models section -->
-        <section class="models-section">
+        <section id="app" class="models-section">
             <div>
                 <h2>Discover the Mini Convertible</h2>
             </div>
-            <div class="models-img">
-                <img src="./images/cooper.png" alt="vehicle image" style="width:200px;">
-                <p>Cooper</p>
+            <!-- car thumbnail component -->
+            <div class="models-container">
+                <thecarthumb @loadlbdata="loadLightbox" v-for="car in carData" :car="car"></thecarthumb>
             </div>
-            <div class="info-container">
-                <div class="info-text">
-                    <div class="models-basic">
-                        <div>
-                            <h3>The 2023 Mini Cooper Convertible</h3>
-                            <p>All-Inclusive Price: $46,756</p>
-                        </div>
-                        <div class="text-wrapper">
-                            <div><p><span>Lease</span><br>$593</p></div>
-                            <div><p><span>Finance</span><br>$767</p></div>
-                        </div>
-                    </div>
-                    <div class="models-features">
-                        <ul>
-                            <li>6-Speed Manual Transmission</li>
-                            <li>205 km/h Top Speed</li>
-                            <li>8.8-inch infotainment touchscreen with Apple CarPlay®</li>
-                            <li>Heated steering wheel and seats</li>
-                            <li>Digital Instrument Display</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="info-img">
-                    <img src="./images/cooper.png" alt="vehicle image">
-                </div>
-            </div>
+
+            <!-- custom light component goes here -->
+            <thelightbox v-if="showLB" :car="lbData"></thelightbox>
+            <!-- <thelightbox v-for="item in heroData" :item="item"></thelightbox> -->
+            <!-- end lightbox -->
         </section>
 
         <!-- feature section -->
@@ -129,5 +108,9 @@
             <p>&#169; 2022 Joanna Chow</p>
         </footer>
     </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://kit.fontawesome.com/07199f6f37.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" type="module" defer></script>
 </body>
 </html>
