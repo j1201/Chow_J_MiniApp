@@ -1,5 +1,7 @@
 # Chow_J_FavouriteThings
 
+![mini cooper image](images/feature-4.jpg)
+
 ## About the Project
 This is an one-page web app of Mini Cooper Models. By clicking on any of the Mini models, it shows the relevant content about that model. This web app is built using SASS, Vue, AJAX and the Fetch API.
 
