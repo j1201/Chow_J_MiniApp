@@ -9,7 +9,7 @@ import LightBox from './components/TheLightbox.js';
     createApp({
         created() {
             // get your remote data here 
-            fetch('./data.json')
+            fetch('./data/data.json')
                 .then(res => res.json()) // convert the data into a plain js object
                 .then(data => this.carData = data) // convert to things we can use
             .catch(error => {
@@ -37,11 +37,16 @@ import LightBox from './components/TheLightbox.js';
                 this.lbData = car;
 
                 //show the lightbox
-                if (this.showLB == true) {
-                    this.showLB = false;
+                if (document.querySelector(".info-container")) {
+                    // check if the same model is clicked again; if yes, close the lightbox; else, open the new selection
+                    if(document.querySelector(".info-container").textContent.includes(this.lbData.price)){
+                        this.showLB = false;
+                    } else {
+                        this.showLB = true;
+                    };
                 } else {
                     this.showLB = true;
-                };
+                }
             }
         }
     }).mount('#app')
