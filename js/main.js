@@ -12,7 +12,10 @@ import LightBox from './components/TheLightbox.js';
             fetch('./data.json')
                 .then(res => res.json()) // convert the data into a plain js object
                 .then(data => this.carData = data) // convert to things we can use
-            .catch(error => console.error(error));
+            .catch(error => {
+                console.error(error);
+                document.querySelector(".error").style.display = "block"
+            });
         },
 
         data() {

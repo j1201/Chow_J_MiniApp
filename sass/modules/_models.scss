@@ -94,3 +94,10 @@
     transform: rotate(-180deg);
     transition: .5s;
 }
+
+.error {
+   display: none;
+   color: red;
+   text-align: center;
+   margin-top: 2em;
+}
