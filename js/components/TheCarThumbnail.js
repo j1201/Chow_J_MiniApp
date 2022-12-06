@@ -9,7 +9,7 @@ export default {
     <div @click="loadLBData" class="models-img">
         <img :src='"images/" + car.pic' alt="vehicle image" style="width:200px;">
         <p>{{car.name}}</p>
-        <i class="fa-solid fa-chevron-down" ref="downarrow"></i>
+        <i class="fa-solid fa-chevron-down arrow" ref="downarrow"></i>
     </div>
     `,
 
