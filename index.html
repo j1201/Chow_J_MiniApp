@@ -49,10 +49,11 @@
             <div class="models-container">
                 <thecarthumb @loadlbdata="loadLightbox" v-for="car in carData" :car="car"></thecarthumb>
             </div>
+            <div class="error">Loading error. Please contact support@mini.ca for assistance. </div>
+
 
             <!-- custom light component goes here -->
             <thelightbox v-if="showLB" :car="lbData"></thelightbox>
-            <!-- <thelightbox v-for="item in heroData" :item="item"></thelightbox> -->
             <!-- end lightbox -->
         </section>
 
@@ -91,9 +92,9 @@
                 <div class="form-container">
                     <p>What’s your name?</p>
                     <form action="#.php">
-                        <input type="text" value="First Name*">
-                        <input type="text" value="Last Name*">
-                        <input type="email" value="Email Name*">
+                        <input type="text" placeholder="First Name*">
+                        <input type="text" placeholder="Last Name*">
+                        <input type="email" placeholder="Email Name*">
                         <input class="submit-btn" type="submit" value="Submit">
                     </form>
                 </div>
