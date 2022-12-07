@@ -10,6 +10,7 @@ import LightBox from './components/TheLightbox.js';
         created() {
             // get your remote data here 
             fetch('./data/data.json')
+            // fetch('./scripts/json.php')
                 .then(res => res.json()) // convert the data into a plain js object
                 .then(data => this.carData = data) // convert to things we can use
             .catch(error => {
@@ -39,7 +40,7 @@ import LightBox from './components/TheLightbox.js';
                 //show the lightbox
                 if (document.querySelector(".info-container")) {
                     // check if the same model is clicked again; if yes, close the lightbox; else, open the new selection
-                    if(document.querySelector(".info-container").textContent.includes(this.lbData.price)){
+                    if(document.querySelector(".info-container").textContent.includes(this.lbData.mini_price)){
                         this.showLB = false;
                     } else {
                         this.showLB = true;

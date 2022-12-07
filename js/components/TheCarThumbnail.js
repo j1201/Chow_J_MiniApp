@@ -7,8 +7,8 @@ export default {
 
     template: `
     <div @click="loadLBData" class="models-img">
-        <img :src='"images/" + car.pic' alt="vehicle image" style="width:200px;">
-        <p>{{car.name}}</p>
+        <img :src='"images/" + car.mini_pic' alt="vehicle image" style="width:200px;">
+        <p>{{car.mini_name}}</p>
         <i class="fa-solid fa-chevron-down arrow" ref="downarrow"></i>
     </div>
     `,
