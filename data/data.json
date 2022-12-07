@@ -1,26 +1,26 @@
 {
     "Cooper": {
-        "name": "Cooper",
-        "price": "$41,356",
-        "lease": "$593",
-        "finance": "$767",
-        "features": ["6-Speed Manual Transmission","205 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
-        "pic": "cooper.png"
+        "mini_name": "Cooper",
+        "mini_price": "$41,356",
+        "mini_lease": "$593",
+        "mini_finance": "$767",
+        "feature": "205 km/h Top Speed,6-Speed Manual Transmission,8.8-inch infotainment touchscreen with Apple CarPlay,Digital Instrument Display,Heated steering wheel and seats",
+        "mini_pic": "cooper.png"
     },
     "CooperS": {
-        "name": "Cooper S",
-        "price": "$46,756",
-        "lease": "$676",
-        "finance": "$869",
-        "features": ["6-Speed Manual Transmission","230 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
-        "pic": "coopers.png"
+        "mini_name": "Cooper S",
+        "mini_price": "$46,756",
+        "mini_lease": "$676",
+        "mini_finance": "$869",
+        "feature": "230 km/h Top Speed,6-Speed Manual Transmission,8.8-inch infotainment touchscreen with Apple CarPlay,Digital Instrument Display,Heated steering wheel and seats",
+        "mini_pic": "coopers.png"
     },
     "JohnCooperWorks": {
-        "name": "John Cooper Works",
-        "price": "$57,856",
-        "lease": "$834",
-        "finance": "$1,078",
-        "features": ["8 Speed Sport Steptronic Automatique","240 km/h Top Speed","8.8-inch infotainment touchscreen with Apple CarPlay®","Heated steering wheel and seats","Digital Instrument Display "],
-        "pic": "cooperjohn.png"
+        "mini_name": "John Cooper Works",
+        "mini_price": "$57,856",
+        "mini_lease": "$834",
+        "mini_finance": "$1,078",
+        "feature": "240 km/h Top Speed,8 Speed Sport Steptronic Automatique,8.8-inch infotainment touchscreen with Apple CarPlay,Digital Instrument Display,Heated steering wheel and seats",
+        "mini_pic": "cooperjohn.png"
     }
   }
